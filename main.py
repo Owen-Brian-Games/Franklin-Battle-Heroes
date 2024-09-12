@@ -29,6 +29,12 @@ font = py.font.Font('Assets/Arkitech Medium.ttf', 32)
 font1 = py.font.Font('Assets/Arkitech Medium.ttf', 16)
 font2 = py.font.Font('Assets/Arkitech Medium.ttf', 10)
 
+#set up jacket info
+with open("Assets/Jackets.json", "r") as file:
+    data = json.load(file)
+
+print(data)
+
 #store what screen we are currently in
 current_screen = "menu"
 
