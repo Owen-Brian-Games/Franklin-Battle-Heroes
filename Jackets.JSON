@@ -1,0 +1,55 @@
+{
+    "name": "Franklin",
+    "health": 150,
+    "image": "assets/Franklin.png",
+
+    "attacks": [
+        {
+            "number": 0,
+            "name": "Zipper Punch",
+            "damage": "50",
+            "failure": 0.25
+        },
+        {
+            "number": 1,
+            "name": ""
+        }
+    ],
+
+    "ability": [
+        {
+        "name": "Franklinite Blast",
+        "damage": 150,
+        "charges": 5
+        }
+    ]
+
+}
+
+{
+    "name": "Olympian",
+    "health": 200,
+    "image": "assets/Olympian.png",
+
+    "attacks": [
+        {
+            "number": 0,
+            "name": "Godly Rage",
+            "damage": "30",
+            "failure": 0.1
+        },
+        {
+            "number": 1,
+            "name": ""
+        }
+    ],
+
+    "ability": [
+        {
+        "name": "Lightning Bolt",
+        "damage": 120,
+        "charges": 3
+        }
+    ]
+
+}
