@@ -8,6 +8,7 @@ from pygame import mixer
 import sys
 from pygame.locals import QUIT
 import os
+#import json
 
 
 #set up window
@@ -30,10 +31,10 @@ font1 = py.font.Font('Assets/Arkitech Medium.ttf', 16)
 font2 = py.font.Font('Assets/Arkitech Medium.ttf', 10)
 
 #set up jacket info
-with open("Assets/Jackets.json", "r") as file:
-    data = json.load(file)
+#with open("Assets/Jackets.json", "r") as file:
+    #data = json.load(file)
 
-print(data)
+#print(data)
 
 #store what screen we are currently in
 current_screen = "menu"
@@ -47,11 +48,11 @@ GREEN = (75, 255, 75)
 WHITE = (255, 255, 255)
 
 #menu music
-mixer.init()
-mixer.music.load("Assets/Franklinite Title Theme.wav")
-mixer.music.set_volume(0)
+#mixer.init()
+#mixer.music.load("Assets/Franklinite Title Theme.wav")
+#mixer.music.set_volume(0)
 #mixer.music.set_volume(0.75)
-mixer.music.play(-1)
+#mixer.music.play(-1)
 
 #a simple rectangle that tells the player what keys to press for certain options
 def keyhint(x, y, text, box=True):
