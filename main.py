@@ -5,7 +5,6 @@
 #imports
 #test
 import pygame as py
-from pygame import mixer
 import sys
 from pygame.locals import QUIT
 import os
