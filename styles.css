@@ -1,1 +1,87 @@
+header {
+        text-align: center;
+        color: white;
+        font-family: code-font;
+        font-size: 3vw;
+        margin-top: 3vw;
+    }
+    @font-face {
+        font-family: "code-font";
+        src: url("/home/brian/Downloads/Press_Start_2P/PressStart2P-Regular.ttf");
+    }
+    a {
+        text-decoration: none;
+    }
+    nav {
+        list-style-type: none;
+    }
+    body {
+        background-color: #222222;
+    }
+    .box {
+        margin: 0 auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    .characters {
+        transition: 0.5s;
+        display: block;
+        width: 30vw;
+        height: 12vw;
+        font-size: 2vw;
+        background-color: darkgray;
+        border-width: 0;
+        border-radius: 4px;
+        font-family: code-font;
+        margin: 10px;
+    }
+    .characters:hover {
+        transition: 0.5s;
+        cursor: pointer;
+        background-color: #666;
+        color: white;
+    }
 
+    .jacket-image-size {
+        width: 10vw;
+        float: left;
+    }
+    .play {
+        transition: 0.5s;
+        display: block;
+        width: 30vw;
+        height: 6vw;
+        font-size: 2vw;
+        background-color: darkgray;
+        border-width: 0;
+        border-radius: 4px;
+        font-family: code-font;
+        margin: 10px;
+    }
+    .play:hover {
+        transition: 0.5s;
+        cursor: pointer;
+        background-color: #666;
+        color: white;
+    }
+    .credits {
+        transition: 0.5s;
+        display: block;
+        width: 30vw;
+        height: 6vw;
+        font-size: 2vw;
+        background-color: darkgray;
+        border-width: 0;
+        border-radius: 4px;
+        font-family: code-font;
+        margin: 10px;
+    }
+    .credits:hover {
+        transition: 0.5s;
+        cursor: pointer;
+        background-color: #666;
+        color: white;
+    }
