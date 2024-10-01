@@ -7,7 +7,7 @@ header {
     }
     @font-face {
         font-family: "code-font";
-        src: url("/home/brian/Downloads/Press_Start_2P/PressStart2P-Regular.ttf");
+        src: url("PressStart2P-Regular.ttf");
     }
     a {
         text-decoration: none;
