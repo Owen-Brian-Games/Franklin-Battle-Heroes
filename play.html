@@ -6,12 +6,29 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div id="player-side">
-            <button id="attack">Attack</button>
+            <div id="player-side" class="left">
+                <div class="topNav">
+                    <h2 class="fightTitle">You</h2>
+                </div>
+                <div>
+                    <img src="jacket_test.png" class="fighterImg">
+                </div>
+                <div>
+                    <select name="Attack", id="attack", class="selection">
+                        <option value="1">Attack 1</option>
+                        <option value="2">Attack 2</option>
+                        <option value="ability">Ability</option>
+                    </select>
+                </div>
+                <div>
+                    <button id="attack", class="fighterButton">Attack</button>
+                </div>
+            </div>
+            <div id="enemy-side" class="right">
+                <div class="topNav">
+                    <h2 class="fightTitle">Enemy</h2>
+                </div>
+            </div>
 
-        </div>
-        <div id="enemy-side">
-
-        </div>
     </body>
 </html>
