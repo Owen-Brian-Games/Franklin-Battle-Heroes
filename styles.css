@@ -1,1 +1,86 @@
+html {
+    background-color: rgb(79, 79, 79);
+}
 
+h1 {
+    font-size: 50pt;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    font-size: 35pt;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    font: bolder;
+    text-align: center;
+    border-radius: 15px;
+    border-width: 10;
+    width: 500px;
+    height: 75px;
+    display: block;
+    margin: auto;
+    background-color: rgb(100, 100, 255);
+    color: white;
+    font-size: 25pt;
+}
+
+nav {
+    text-decoration: none;
+    list-style: none;
+}
+
+.left {
+    margin-left: 75px;
+    float: left;
+    margin-top: 20px;
+}
+
+.right {
+    margin-right: 75px;
+    float: right;
+    margin-top: 20px;
+}
+
+.fightTitle {
+    margin: 100px;
+    margin-top: 20px;
+    font-size: 28pt;
+}
+
+.topNav {
+    background-color: rgb(100, 100, 255);
+    overflow: hidden;
+    height: 80px;
+    border-bottom-left-radius: 15px;
+    border-radius: 25px;
+    margin: 25px;
+}
+
+.fighterImg {
+    height: 250px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.selection {
+    width: 250px;
+    height: 50px;
+    margin-left:30px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.fighterButton {
+    width: 250px;
+    margin-left: 30px;
+    background-color: rgb(100, 100, 255);
+    margin-top: 15px;
+}
