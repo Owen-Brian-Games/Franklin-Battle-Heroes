@@ -2,6 +2,12 @@ html {
     background-color: rgb(79, 79, 79);
 }
 
+body {
+    overflow: auto;
+    display: inline;
+    white-space: nowrap;
+}
+
 h1 {
     font-size: 50pt;
     text-align: center;
@@ -50,19 +56,48 @@ nav {
     margin-top: 20px;
 }
 
+.center {
+    float: center;
+    margin-top: 25px;
+    margin-left: 500px;
+}
+
 .fightTitle {
-    margin: 100px;
-    margin-top: 20px;
-    font-size: 28pt;
+    margin-top: 11px;
+    font-size: 18pt;
+    margin-bottom: 10px;
+}
+
+.fightTitleSmall {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 5px;
+    font-size: 14pt;
 }
 
 .topNav {
+    margin-left: 100px;
+    margin-right: 100px;
     background-color: rgb(100, 100, 255);
     overflow: hidden;
     height: 80px;
     border-bottom-left-radius: 15px;
     border-radius: 25px;
-    margin: 25px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 255px;
+}
+
+.topNavInfo {
+    height: 80px;
+    width: 300px;
+    border-bottom-left-radius: 15px;
+    border-radius: 25px;
+    margin-top: 25px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    text-align: center;
 }
 
 .fighterImg {
@@ -84,4 +119,12 @@ nav {
     margin-left: 30px;
     background-color: rgb(100, 100, 255);
     margin-top: 15px;
+}
+
+.healthBar {
+    font-size: 20pt;
+}
+
+.abilityDisplay {
+    font-size: 15pt;
 }
