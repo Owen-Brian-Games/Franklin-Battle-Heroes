@@ -1,5 +1,5 @@
-# Franklin-Battle-Heroes
-A turn based battle game about jacket warfare. Idea for game from Jett Cherry.
+# Franklin Battle Heroes
+A turn-based battle game about jacket warfare. Game Idea by Jett Cherry, Implemented by Owen Schmidt and Brian Moore.
 
 # Download
 First, download the source files as a zip, and open the files app. Right click, and click extract all. A menu will open, and click continue. Now, open the new folder and navigate to index.html. Doule click to launch it with your browser.
